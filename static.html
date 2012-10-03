@@ -1,0 +1,451 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mobile gallery</title>
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-touch-fullscreen" content="yes" />
+  <meta http-equiv="cleartype" content="on">
+  <link rel="stylesheet" href="public/css/reset.css">
+  <link rel="stylesheet" href="public/css/mobile.css">
+</head>
+
+<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+  <div class="sheet edit-sheet">
+  <nav class="titlebar">
+    <h1 class="title">Edit event</h1>
+    <a class="button right done">Done</a>
+  </nav>
+  <section class="edit-fields">
+    <table>
+      <tbody>
+        <tr>
+          <td>Title</td>
+          <td>Coachella</td>
+        </tr>
+        <tr>
+          <td>Who</td>
+          <td class="default">Everyone</td>
+        </tr>
+        <tr>
+          <td>What</td>
+          <td class="default" data-sheet-link="what-sheet">Keywords &amp; hashtags</td>
+        </tr>
+        <tr>
+          <td>When</td>
+          <td class="default" data-sheet-link="when-sheet">Past 7 days</td>
+        </tr>
+        <tr>
+          <td>Where</td>
+          <td class="default">Anywhere</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</div>
+<div class="sheet subsheet when-sheet">
+  <nav class="titlebar">
+    <a class="button left">Cancel</a>
+    <h1 class="title">Date &amp; time</h1>
+    <a class="button right">Done</a>
+  </nav>
+  <section class="edit-fields">
+    <table>
+      <tbody>
+        <tr>
+          <td>Starts</td>
+          <td>
+            Jul 18, 2012 12:00 PM
+            <form action="">
+              <input type="datetime" class="datetime">
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td>Ends</td>
+          <td>
+            Jul 18, 2012 8:00 PM
+            <form action="">
+              <input type="datetime" class="datetime">
+            </form>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</div>
+<div class="sheet contributors-sheet">
+  <nav class="titlebar">
+    <h1 class="title">Contributors</h1>
+    <a class="button left">Close</a>
+  </nav>
+  <div class="timeline">
+    <article class="tweet">
+  <a class="user">
+    <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/2179672617/ohno-1_reasonably_small.jpeg" alt="">
+    <span class="fullname">Connor Sears</span>
+    <span class="username">@connor</span>
+  </a>
+  <time class="time">3m</time>
+  <p class="tweet-text">Did hologram Tupac just throwdown against IRL Snoop Dogg. Life changed.</p>
+</article>
+    <article class="tweet">
+  <a class="user">
+    <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/1769809452/image1327110751_reasonably_small.png" alt="">
+    <span class="fullname">Zhanna Shamis</span>
+    <span class="username">@zhanna</span>
+  </a>
+  <time class="time">3m</time>
+  <p class="tweet-text">I think this is the best Coachella yet. Nobody brings it like Snoop.</p>
+</article>
+    <article class="tweet">
+  <a class="user">
+    <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/1793967733/avatar-3002_reasonably_small.png" alt="">
+    <span class="fullname">Dave Gamache</span>
+    <span class="username">@dhg</span>
+  </a>
+  <time class="time">2m</time>
+  <p class="tweet-text">As promised, I fought my way to the front. I give you Jay-Z on his throne.</p>
+    <div class="tweet-embed-wrapper">
+      <img class="tweet-embed" src="public/img/coachella/jayz.png" alt="">
+    </div>
+</article>
+    <article class="tweet">
+  <a class="user">
+    <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/1422223766/mdo-upside-down-shades_reasonably_small.jpg" alt="">
+    <span class="fullname">Mark Otto</span>
+    <span class="username">@mdo</span>
+  </a>
+  <time class="time">7m</time>
+  <p class="tweet-text">I dunno man. There&#39;s just all these...there&#39;s so much stuff to look at. I dunno. I dunno.</p>
+</article>
+    <article class="tweet">
+  <a class="user">
+    <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/2198051300/face_reasonably_small.jpg" alt="">
+    <span class="fullname">Jacob Thonton</span>
+    <span class="username">@fat</span>
+  </a>
+  <time class="time">12m</time>
+  <p class="tweet-text">Everybody chillin on the main stage are fools - over here on sub-1 is where it&#39;s at. #coachella</p>
+</article>
+    <article class="tweet">
+  <a class="user">
+    <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/479141750/7932_773663250517_3626357_44522106_125329_n_reasonably_small.jpg" alt="">
+    <span class="fullname">Dave Parker</span>
+    <span class="username">@allfatherodin</span>
+  </a>
+  <time class="time">10m</time>
+  <p class="tweet-text">Soooooo...this just happened. Basically on stage with Rise Against.</p>
+    <div class="tweet-embed-wrapper">
+      <img class="tweet-embed" src="public/img/coachella/singer.png" alt="">
+    </div>
+</article>
+  </div>
+</div>
+
+<div class="container fullbleed">
+  <nav class="titlebar">
+    <h1 class="title">Coachella</h1>
+    <a class="button right tweet-button">
+      <img src="public/img/quill.png" width="22" height="18" alt="">
+    </a>
+  </nav>
+    <header class="event-header">
+    <section class="header-slider" id="eventSlider">
+      <ul>
+        <li class="title-slide" style="display:block">
+          <h1 class="event-header-title">Coachella</h1>
+          <h2 class="event-header-attribution">Created by @dhg</h2>
+          <img class="event-header-bg" src="public/img/coachella/header-collage.png" width="320" height="160" alt="">
+        </li>
+        <li class="geo-slide" style="display:none">
+          <img src="public/img/coachella/map2.jpg" width="320" height="160" alt="">
+        </li>
+        <li class="tps-slide" style="display:none">
+          <img src="public/img/coachella/tps3.png" width="320" height="160" alt="">
+        </li>
+        <li style="display:none">
+          <div class="timeline-controls">
+            <a href="#" class="button" data-toggle="guttered">Toggle gutters</a>
+            <a href="#" class="button" data-toggle="fullbleed">Toggle fullbleed media</a>
+            <a href="#" class="button" data-toggle="media-on-top">Toggle media position</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="header-pips">
+        <li class="active">1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </section>
+    <ul class="header-stats">
+      <li>
+        <span class="stat-value">3,612</span>
+        <span class="stat-title">Tweets</span>
+      </li>
+      <li data-sheet-link="contributors-sheet">
+        <span class="stat-value">239</span>
+        <span class="stat-title">Contributors</span>
+      </li>
+      <li>
+        <span class="stat-value">2,283</span>
+        <span class="stat-title">Followers</span>
+      </li>
+    </ul>
+    <ul class="header-controls">
+      <li>
+        <a href="#" class="button">Follow</a>
+      </li>
+      <li>
+        <a href="#" class="edit button" data-sheet-link="edit-sheet">Edit</a>
+      </li>
+    </ul>
+  </header>
+    <section class="timeline">
+
+  <!-- Media below -->
+  <div class="media-below-timeline">
+    <article class="tweet">
+  <a class="user">
+    <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/2179672617/ohno-1_reasonably_small.jpeg" alt="">
+    <span class="fullname">Connor Sears</span>
+    <span class="username">@connor</span>
+  </a>
+  <time class="time">3m</time>
+  <p class="tweet-text">Did hologram Tupac just throwdown against IRL Snoop Dogg. Life changed.</p>
+</article>
+    <article class="tweet">
+  <a class="user">
+    <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/1769809452/image1327110751_reasonably_small.png" alt="">
+    <span class="fullname">Zhanna Shamis</span>
+    <span class="username">@zhanna</span>
+  </a>
+  <time class="time">3m</time>
+  <p class="tweet-text">I think this is the best Coachella yet. Nobody brings it like Snoop.</p>
+</article>
+    <article class="tweet">
+  <a class="user">
+    <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/1793967733/avatar-3002_reasonably_small.png" alt="">
+    <span class="fullname">Dave Gamache</span>
+    <span class="username">@dhg</span>
+  </a>
+  <time class="time">2m</time>
+  <p class="tweet-text">As promised, I fought my way to the front. I give you Jay-Z on his throne.</p>
+    <div class="tweet-embed-wrapper">
+      <img class="tweet-embed" src="public/img/coachella/jayz.png" alt="">
+    </div>
+</article>
+    <article class="tweet">
+  <a class="user">
+    <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/1422223766/mdo-upside-down-shades_reasonably_small.jpg" alt="">
+    <span class="fullname">Mark Otto</span>
+    <span class="username">@mdo</span>
+  </a>
+  <time class="time">7m</time>
+  <p class="tweet-text">I dunno man. There&#39;s just all these...there&#39;s so much stuff to look at. I dunno. I dunno.</p>
+</article>
+    <article class="tweet">
+  <a class="user">
+    <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/2198051300/face_reasonably_small.jpg" alt="">
+    <span class="fullname">Jacob Thonton</span>
+    <span class="username">@fat</span>
+  </a>
+  <time class="time">12m</time>
+  <p class="tweet-text">Everybody chillin on the main stage are fools - over here on sub-1 is where it&#39;s at. #coachella</p>
+</article>
+    <article class="tweet">
+  <a class="user">
+    <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/479141750/7932_773663250517_3626357_44522106_125329_n_reasonably_small.jpg" alt="">
+    <span class="fullname">Dave Parker</span>
+    <span class="username">@allfatherodin</span>
+  </a>
+  <time class="time">10m</time>
+  <p class="tweet-text">Soooooo...this just happened. Basically on stage with Rise Against.</p>
+    <div class="tweet-embed-wrapper">
+      <img class="tweet-embed" src="public/img/coachella/singer.png" alt="">
+    </div>
+</article>
+  </div>
+
+  <!-- Media above -->
+  <div class="media-above-timeline">
+    <article class="tweet mediatop">
+  <div class="tweet-content">
+    <a class="user">
+      <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/2179672617/ohno-1_reasonably_small.jpeg" alt="">
+      <span class="fullname">Connor Sears</span>
+      <span class="username">@connor</span>
+    </a>
+    <time class="time">3m</time>
+    <p class="tweet-text">Did hologram Tupac just throwdown against IRL Snoop Dogg. Life changed.</p>
+  </div>
+</article>
+    <article class="tweet mediatop">
+  <div class="tweet-content">
+    <a class="user">
+      <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/1769809452/image1327110751_reasonably_small.png" alt="">
+      <span class="fullname">Zhanna Shamis</span>
+      <span class="username">@zhanna</span>
+    </a>
+    <time class="time">3m</time>
+    <p class="tweet-text">I think this is the best Coachella yet. Nobody brings it like Snoop.</p>
+  </div>
+</article>
+    <article class="tweet mediatop">
+    <div class="tweet-embed-wrapper">
+      <img class="tweet-embed" src="public/img/coachella/jayz.png" alt="">
+    </div>
+  <div class="tweet-content">
+    <a class="user">
+      <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/1793967733/avatar-3002_reasonably_small.png" alt="">
+      <span class="fullname">Dave Gamache</span>
+      <span class="username">@dhg</span>
+    </a>
+    <time class="time">2m</time>
+    <p class="tweet-text">As promised, I fought my way to the front. I give you Jay-Z on his throne.</p>
+  </div>
+</article>
+    <article class="tweet mediatop">
+  <div class="tweet-content">
+    <a class="user">
+      <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/1422223766/mdo-upside-down-shades_reasonably_small.jpg" alt="">
+      <span class="fullname">Mark Otto</span>
+      <span class="username">@mdo</span>
+    </a>
+    <time class="time">7m</time>
+    <p class="tweet-text">I dunno man. There&#39;s just all these...there&#39;s so much stuff to look at. I dunno. I dunno.</p>
+  </div>
+</article>
+    <article class="tweet mediatop">
+  <div class="tweet-content">
+    <a class="user">
+      <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/2198051300/face_reasonably_small.jpg" alt="">
+      <span class="fullname">Jacob Thonton</span>
+      <span class="username">@fat</span>
+    </a>
+    <time class="time">12m</time>
+    <p class="tweet-text">Everybody chillin on the main stage are fools - over here on sub-1 is where it&#39;s at. #coachella</p>
+  </div>
+</article>
+    <article class="tweet mediatop">
+    <div class="tweet-embed-wrapper">
+      <img class="tweet-embed" src="public/img/coachella/singer.png" alt="">
+    </div>
+  <div class="tweet-content">
+    <a class="user">
+      <img class="avatar" src="https://twimg0-a.akamaihd.net/profile_images/479141750/7932_773663250517_3626357_44522106_125329_n_reasonably_small.jpg" alt="">
+      <span class="fullname">Dave Parker</span>
+      <span class="username">@allfatherodin</span>
+    </a>
+    <time class="time">10m</time>
+    <p class="tweet-text">Soooooo...this just happened. Basically on stage with Rise Against.</p>
+  </div>
+</article>
+  </div>
+</section>
+</div>
+
+<div class="navbar"></div>
+
+<div class="media-grid-sheet">
+  <div class="box">
+    <img src="public/img/coachella/grid/1.png" alt="">
+  </div>
+  <div class="box">
+    <img src="public/img/coachella/grid/2.png" alt="">
+  </div>
+  <div class="box tall">
+    <img src="public/img/coachella/grid/3.png" alt="">
+  </div>
+    <div class="box wide">
+    <img src="public/img/coachella/grid/7.png" alt="">
+  </div>
+  <div class="box tall">
+    <img src="public/img/coachella/grid/9.png" alt="">
+  </div>
+    <div class="box large">
+    <img src="public/img/coachella/jayz.png" alt="">
+  </div>
+  <div class="box">
+    <img src="public/img/coachella/grid/10.png" alt="">
+  </div>
+  <div class="box">
+    <img src="public/img/coachella/grid/4.png" alt="">
+  </div>
+    <div class="box large">
+    <img src="public/img/coachella/grid/12.png" alt="">
+  </div>
+  <div class="box">
+    <img src="public/img/coachella/grid/6.png" alt="">
+  </div>
+  <div class="box">
+    <img src="public/img/coachella/grid/8.png" alt="">
+  </div>
+  <div class="box">
+    <img src="public/img/coachella/grid/11.png" alt="">
+  </div>
+  <div class="box">
+    <img src="public/img/coachella/grid/13.png" alt="">
+  </div>
+ <div class="box wide">
+    <img src="public/img/coachella/grid/14.png" alt="">
+  </div>
+</div>
+<nav class="media-grid-titlebar dark titlebar">
+  <a class="button left">Close</a>
+  <h1 class="title">Media</h1>
+</nav>
+<div class="map-sheet">
+  <div class="geo-map">
+    <img class="map-image" src="public/img/coachella/map-full.jpg" alt="">
+  </div>
+</div>
+ <nav class="map-titlebar titlebar dark">
+  <a class="button left">Close</a>
+  <h1 class="title">Map</h1>
+</nav>
+<div class="photo-footer">
+  <div class="overlay-tweet">
+    <div class="overlay-tweet-inner">
+      <div class="avatar">
+        <img src="https://twimg0-a.akamaihd.net/profile_images/1793967733/avatar-3002_reasonably_small.png" alt="">
+      </div>
+      <div class="overlay-tweet-content">
+        <div class="tweet-author">
+          <span class="realname">Dave Gamache</span>
+          <span class="username"> @dhg</span>
+        </div>
+        <p class="tweet-text">This is one of the best music festivals I've ever been to. </p>
+      </div>
+    </div>
+  </div>
+  <div class="actions">
+    <img src="public/img/actions-bar.png" alt="">
+  </div>
+</div>
+<div class="photo-sheet">
+  <img src="public/img/coachella/jayz.png" class="primary-photo">
+</div>
+
+<nav class="photo-titlebar dark titlebar">
+  <a class="button left">Close</a>
+  <h1 class="title">Photo</h1>
+</nav>
+<div class="tps-sheet">
+  <img class="tps-image" src="public/img/coachella/tps-full.jpg" alt="">
+</div>
+<nav class="tps-titlebar titlebar dark">
+  <a class="button left">Close</a>
+  <h1 class="title">Stats</h1>
+</nav>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="public/js/swipe.js"></script>
+  <script type="text/javascript" src="public/js/masonry.js"></script>
+  <script type="text/javascript" src="public/js/app.js"></script>
+</body>
+</html>

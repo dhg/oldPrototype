@@ -1,0 +1,16 @@
+<article class="tweet mediatop">
+  {{#embed}}
+    <div class="tweet-embed-wrapper">
+      <img class="tweet-embed" src="{{embed}}" alt="">
+    </div>
+  {{/embed}}
+  <div class="tweet-content">
+    <a class="user">
+      <img class="avatar" src="{{avatar_url}}" alt="">
+      <span class="fullname">{{realname}}</span>
+      <span class="username">{{username}}</span>
+    </a>
+    <time class="time">{{time}}</time>
+    <p class="tweet-text">{{text}}</p>
+  </div>
+</article>
